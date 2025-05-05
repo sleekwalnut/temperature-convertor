@@ -1,0 +1,58 @@
+.box1{
+  width: 800px;
+  height: 900px;
+  background-color: lightblue;
+  margin: auto;
+  text-align: center;
+  box-shadow: 10px 10px 10px 10px
+  grey;
+  font-size: 60px;
+}
+#num{
+  font-size: 55px;
+  font-weight: bold;
+  font-family: Roboto:
+}
+#faranhite_celsius{
+  font-size: 60px;
+}
+input[type="radio"] {
+  width: 50px; /* Or any desired size */
+  height: 50px; /* Or any desired size */
+}
+button{
+  font-size: 55px;
+}
+#out{
+  font-size: 40px;
+}
+@media (min-width: 1024px){
+  .box1{
+    width: 500px;
+    height: 500px;
+    background-color: lightblue;
+    margin: auto;
+    text-align: center;
+    box-shadow: 10px 10px 10px 10px
+    grey;
+    font-size: 30px;
+  }
+  #num{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Roboto:
+  }
+  #faranhite_celsius{
+    font-size: 30px;
+  }
+  input[type="radio"] {
+    width: 30px; /* Or any desired size */
+    height: 30px; /* Or any desired size */
+  }
+  button{
+    font-size: 40px;
+  }
+}
+#out{
+  font-size: 30px;
+}
